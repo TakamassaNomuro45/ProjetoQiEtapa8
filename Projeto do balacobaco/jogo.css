@@ -1,0 +1,112 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header {
+    background-color: orangered;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logo img {
+    height: 50px;
+    rotate: 270deg;
+    height: 70px;
+    width: 70px;
+}
+
+.nome-do-site {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 1px;
+    flex: 10;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    rotate: 270deg;
+    height: 70px;
+    width: 70px;
+}
+
+.imagem-jogo {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .descricao-jogo {
+    text-align: center;
+    width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .plataformas {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .plataforma-btn1 {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14165b;
+    color: #ffffff;
+    cursor: pointer;
+    }
+
+  .plataforma-btn2 {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d1fde;
+    color: #fff6f6;
+    cursor: pointer;
+  }
+
+  .plataforma-btn3 {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a7328;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .plataforma-btn4 {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eb0d0d;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  h2 {
+    text-align: center;
+  }

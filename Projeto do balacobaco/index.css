@@ -1,0 +1,99 @@
+
+body {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header {
+    background-color: orangered;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logo img {
+    height: 50px;
+    rotate: 270deg;
+    height: 70px;
+    width: 70px;
+}
+
+.nome-do-site {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 1px;
+    flex: 10;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 6px 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #444444;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#lista-de-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #444444;
+    margin: 10px;
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.game-card h2, .game-card p {
+    margin: 0;
+    color: white;
+}
+
+.footer {
+    background-color: orangered;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.game-card-link {
+    text-decoration: none; /* remove a decoração de link padrão */
+    color: #000; /* define a cor do texto do link */
+  }
+  
+  .game-card-link:hover {
+    background-color: #eee; /* define a cor de fundo quando o link é hover */
+  }
